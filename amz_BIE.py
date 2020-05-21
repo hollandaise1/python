@@ -3,7 +3,6 @@ arr = [2,2,4,4,3,5,4,5,4,5,3,2,2]
 
 def getOccurance(myArray):
     counterDict = {}
-
     for item in myArray:
         if item in counterDict:
             counterDict[item] += 1

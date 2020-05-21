@@ -13,10 +13,9 @@ def getOccurance(myArray):
     
 def oddMod(myDict):
     for k,v in myDict.items():
-        print(v)
-        if v%2 == 0:
-            myDict.pop(v)
-            print(myDict)
+        newDict = {}
+        if v%2 != 0:
+            newDict[k]=v
         else:
             pass
-    return myDict
+    return newDict

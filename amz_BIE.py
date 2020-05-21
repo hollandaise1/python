@@ -1,5 +1,5 @@
 """To write a function that count the odd occurence of integers in an array """
-arr = [2,2,4,4,3,5,4,5,4,5,3,2,2]
+arr = [2,2,4,3,5,4,5,4,5,3,2,2]
 
 def getOccurance(myArray):
     counterDict = {}
@@ -19,3 +19,5 @@ def oddMod(myDict):
         else:
             pass
     return newDict
+
+#Expected Results: {4: 3, 5: 3}
